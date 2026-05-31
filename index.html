@@ -14,7 +14,11 @@ Precio: 1.35 EUROS
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Plenny Shake</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="assets/img/logo_plenny_shake.jpg" type="image/x-icon">
+    <link rel="icon" href="assets/img/logo_plenny_shake.jpg" type="image/x-icon" id="icono">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Sans+Pahawh+Hmong&family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 </head>
 <body>
     
@@ -24,7 +28,7 @@ Precio: 1.35 EUROS
 
         <nav>
 
-            <img src="assets/img/logo_plenny_shake.jpg" alt="logo_plenny_shake">
+            <img src="assets/img/logo_plenny_shake.jpg" alt="logo_plenny_shake" id="icono" width="145px" height="150px">
 
             <a href="#inicio">Inicio</a>
             <a href="">Descuento</a>
@@ -37,30 +41,47 @@ Precio: 1.35 EUROS
 
     <main>
 
-        <section id="">
-
-            <img src="assets/img/imagen_plenny_shake_chocolate.jpg" alt="plenny_shake_chocolate">
-
-        </section>
-
-
+        <div class="card-group">
+            <div class="card">
+                <img src="assets/img/imagen_plenny_shake_chocolate.jpg" class="card-img-top" alt="plenny_shake_chocolate">
+                <div class="card-body">
+                <h5 class="card-title">Plenny Shake sabor Vainilla</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Plenny Shake sabor Frutilla</h5>
+                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            </div>
+            <div class="card">
+                <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Plenny Shake sabor Lemon Pie</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                    </div>
+            </div>
+        </div>
     </main>
     <!--fonse-->
     <footer>
     <div class="footer">
-        <h3>Plenny Shake</h3>
+        <br>
+        <h1>Plenny Shake</h1>
+        <br>
         <h4>Metodos de pago</h4>
         <div class="metodos-pago">
-            <img src="assets/img/Visa.jpeg" alt="Visa">
-            <img src="assets/img/MasterCard.jpeg" alt="MasterCard">
-            <img src="assets/img/PayPal.jpeg" alt="PayPal">
-        </div> 
+            <img src="assets/img/Visa.jpeg" alt="Visa" width="100" height="60">
+            <img src="assets/img/MasterCard.jpeg" alt="MasterCard"width="100" height="60">
+            <img src="assets/img/PayPal.jpeg" alt="PayPal" width="100" height="60">
+        </div>
+        <br>
         <p>© 2024 Plenny Shake. Todos los derechos reservados.</p>
-    </div>
-
-
-        
+        <br>
+    </div> 
     </footer>
-    <!--fonsefeo-->
+    <!--fonse-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
 </html>
