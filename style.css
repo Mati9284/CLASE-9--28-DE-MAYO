@@ -11,6 +11,12 @@ MATIAS
 
 */
 
+body {
+
+    background-color: rgb(213, 237, 242);
+
+}
+
 #inicio {
 
     width: 100%;
@@ -49,6 +55,12 @@ nav a {
     text-decoration: none;
     font-size: 1vw;
     font-weight: 800;
+
+}
+
+nav a:hover {
+
+    opacity: 0.75;
 
 }
 
