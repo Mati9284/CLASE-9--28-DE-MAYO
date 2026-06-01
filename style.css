@@ -11,9 +11,16 @@ MATIAS
 
 */
 
+#inicio {
+
+    width: 100%;
+    height: 100px;
+
+}
 
 header {
 
+    position: fixed;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,7 +29,8 @@ header {
     border-radius: 50px;
     padding: 10px;
     width: 100%;
-    height: 100%;
+    height: 25%;
+    z-index: 1;
 
 }
 
