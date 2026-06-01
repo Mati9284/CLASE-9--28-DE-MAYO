@@ -11,9 +11,15 @@ MATIAS
 
 */
 
+.redondeado {
+
+    border-radius: 50px;
+
+}
+
 body {
 
-    background-color: rgb(213, 237, 242);
+    background-color: #DDF8FF;
 
 }
 
