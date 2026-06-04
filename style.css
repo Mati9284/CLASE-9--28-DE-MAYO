@@ -48,9 +48,7 @@ p {
 }
 
 body {
-
-    background-color: #DDF8FF;
-
+    background: linear-gradient(to right, #a3e6f5, #b3d3d8);
 }
 
 #inicio {
@@ -127,7 +125,7 @@ GONZALO
 */
 
 .footer {
-    background-color: rgb(163, 230, 245);
+    background: linear-gradient(to right, #f68569, #5c4a3c);
     display: flex;
     justify-content: center;
     align-items: center;
