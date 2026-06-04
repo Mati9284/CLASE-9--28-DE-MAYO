@@ -11,15 +11,23 @@ MATIAS
 
 */
 
+#strong {
+
+    font-weight: 1000;
+    font-size: 50px;
+    margin-top: 1px;
+
+}
+
 h1 {
 
- font-family: "Limelight", sans-serif;
+ font-family: "DynaPuff", sans-serif;
 
 }
 
 h2 {
 
-    font-family: "Limelight", sans-serif;
+    font-family: "DynaPuff", sans-serif;
 
 }
 
@@ -48,9 +56,7 @@ p {
 }
 
 body {
-
-    background-color: #DDF8FF;
-
+    background: linear-gradient(to right, #a3e6f5, #b3d3d8);
 }
 
 #inicio {
@@ -60,14 +66,25 @@ body {
 
 }
 
+.borde {
+
+    border-radius: 5%;
+
+}
+
 header {
 
     position: fixed;
     display: flex;
     justify-content: center;
     align-items: center;
+<<<<<<< HEAD
     background-color: rgb(215, 137, 53);
     border: 8px solid  rgb(163, 230, 245);
+=======
+    background: linear-gradient(to right, #cfa663, #f2b63e);
+    border: 8px solid  rgb(187, 126, 28);
+>>>>>>> 1f063658f3f1925b2f8497bcab52b322abf6b7ea
     border-radius: 50px;
     padding: 10px;
     width: 100%;
@@ -127,7 +144,7 @@ GONZALO
 */
 
 .footer {
-    background-color: rgb(163, 230, 245);
+    background: linear-gradient(to right, #f68569, #8e6e55);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -143,14 +160,18 @@ GONZALO
 #metodos_pago {
 
     border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
 
 }
 
 #video {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
-    flex-direction: column;
+    flex-direction: row-reverse;
 
 }
 
@@ -160,12 +181,6 @@ GONZALO
     align-items: center;
     flex-direction: column;
 }
-/*
-
-OCTAVIO
-
-*/
-
 
 @keyframes movimiento {
 
@@ -183,3 +198,9 @@ OCTAVIO
     }
 
 }
+
+/*
+
+OCTAVIO
+
+*/
