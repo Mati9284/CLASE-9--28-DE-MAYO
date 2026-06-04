@@ -64,8 +64,8 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(206, 117, 22);
-    border: 8px solid  rgb(163, 230, 245);
+    background: linear-gradient(to right, #cfa663, #f2b63e);
+    border: 8px solid  rgb(187, 126, 28);
     border-radius: 50px;
     padding: 10px;
     width: 100%;
@@ -125,7 +125,7 @@ GONZALO
 */
 
 .footer {
-    background: linear-gradient(to right, #f68569, #5c4a3c);
+    background: linear-gradient(to right, #f68569, #8e6e55);
     display: flex;
     justify-content: center;
     align-items: center;
