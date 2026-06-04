@@ -2,7 +2,7 @@
 
     margin: 5;
     padding: 0;
-    font-weight: 700;
+    font-weight: 800;
 }
 
 /*
@@ -48,7 +48,9 @@ p {
 }
 
 body {
-    background: linear-gradient(to right, #a3e6f5, #b3d3d8);
+
+    background-color: #DDF8FF;
+
 }
 
 #inicio {
@@ -95,8 +97,6 @@ nav a {
 nav a:hover {
 
     opacity: 0.75;
-    animation-duration: 1s;
-    animation-name: movimiento;
 
 }
 
@@ -114,7 +114,7 @@ header img {
 
 main {
 
-    margin: 25px;
+    margin: 5px;
 
 }
 
@@ -125,7 +125,7 @@ GONZALO
 */
 
 .footer {
-    background: linear-gradient(to right, #f68569, #5c4a3c);
+    background-color: rgb(163, 230, 245);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -144,7 +144,7 @@ GONZALO
 
 }
 
-#video {
+.video {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -163,21 +163,3 @@ GONZALO
 OCTAVIO
 
 */
-
-
-@keyframes movimiento {
-
-    50% {
-
-        translate: 0px 10px;
-
-    }
-
-
-    100% {
-
-        translate: 0px 0px;
-
-    }
-
-}
