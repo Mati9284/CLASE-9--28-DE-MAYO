@@ -78,13 +78,10 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-<<<<<<< HEAD
     background-color: rgb(215, 137, 53);
     border: 8px solid  rgb(163, 230, 245);
-=======
     background: linear-gradient(to right, #cfa663, #f2b63e);
     border: 8px solid  rgb(187, 126, 28);
->>>>>>> 1f063658f3f1925b2f8497bcab52b322abf6b7ea
     border-radius: 50px;
     padding: 10px;
     width: 100%;
