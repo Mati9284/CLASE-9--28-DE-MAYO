@@ -5,11 +5,7 @@
     font-weight: 700;
 }
 
-/*
-
-MATIAS
-
-*/
+/* EFECTO-LETRAS */
 
 #strong {
 
@@ -21,7 +17,7 @@ MATIAS
 
 h1 {
 
- font-family: "DynaPuff", sans-serif;
+    font-family: "DynaPuff", sans-serif;
 
 }
 
@@ -56,7 +52,9 @@ p {
 }
 
 body {
+
     background: linear-gradient(to right, #a3e6f5, #b3d3d8);
+
 }
 
 #inicio {
@@ -74,12 +72,12 @@ body {
 
 header {
 
+    margin-top: 5px;
     position: fixed;
     display: flex;
     justify-content: center;
     align-items: center;
     background: linear-gradient(to right, #cfa663, #f2b63e);
-    border: 8px solid  rgb(187, 126, 28);
     border-radius: 50px;
     padding: 10px;
     width: 100%;
@@ -139,7 +137,7 @@ GONZALO
 */
 
 .footer {
-    background: linear-gradient(to right, #f68569, #8e6e55);
+    background: linear-gradient(to right, #f68569, #be9371);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -177,6 +175,39 @@ GONZALO
     flex-direction: column;
 }
 
+button:hover {
+
+    animation-duration: 1s;
+    animation-name: rotar;
+
+}
+
+/* ANIMACIONES-EJECUTADAS */
+
+h1:hover {
+
+    animation-name: movimiento_suave;
+    animation-duration: 1s;
+
+}
+
+h2 b:hover {
+
+    animation-name: rotar;
+    animation-duration: 1s;
+
+}
+
+li:hover {
+
+    animation-name: escala;
+    animation-duration: 1s;
+
+}
+
+/* ANIMACIONES */
+
+
 @keyframes movimiento {
 
     50% {
@@ -194,8 +225,94 @@ GONZALO
 
 }
 
-/*
+@keyframes movimiento_suave {
 
-OCTAVIO
+    50% {
 
-*/
+        translate: 0px 2.5px;
+
+    }
+
+    100% {
+
+        translate: 0px 0px;
+
+    }
+
+} 
+
+@keyframes rotar {
+    
+    25% {
+
+        transform: rotate(0deg);
+
+    }
+
+    50% {
+
+        transform: rotate(10deg);
+
+    }
+
+    75% {
+
+        transform: rotate(-10deg);
+
+    }
+
+}
+
+@keyframes rotar_suave {
+    
+    25% {
+
+        transform: rotate(0deg);
+
+    }
+
+    50% {
+
+        transform: rotate(10deg);
+
+    }
+
+    75% {
+
+        transform: rotate(-10deg);
+
+    }
+
+}
+
+@keyframes escala {
+    
+    50% {
+
+        transform: scale(2);
+
+    }
+
+    100% {
+
+        transform: scale(1);
+
+    }
+
+}
+
+@keyframes escala_suave {
+    
+    50% {
+
+        transform: scale(1.5);
+
+    }
+
+    100% {
+
+        transform: scale(1);
+
+    }
+
+}
