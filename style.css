@@ -24,6 +24,9 @@ h1 {
 h2 {
 
     font-family: "DynaPuff", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
 
@@ -78,7 +81,7 @@ header {
     justify-content: center;
     align-items: center;
     background-color: rgb(215, 137, 53);
-    border: 8px solid  rgb(163, 230, 245);
+    border: 8px solid  rgb(140, 212, 228);
     background: linear-gradient(to right, #cfa663, #f2b63e);
     border-radius: 50px;
     padding: 10px;
@@ -132,12 +135,6 @@ main {
 
 }
 
-/*
-
-GONZALO
-
-*/
-
 .footer {
     background: linear-gradient(to right, #f68569, #be9371);
     display: flex;
@@ -177,6 +174,17 @@ GONZALO
     flex-direction: column;
 }
 
+button {
+
+    width: 50%;
+    border-radius: 10px;
+    border: #b3d3d8 solid 5px;
+    background: linear-gradient(to right, #9e8b6e, #f2b63e);
+
+}
+
+/* ANIMACIONES-EJECUTADAS */
+
 button:hover {
 
     animation-duration: 1s;
@@ -184,19 +192,34 @@ button:hover {
 
 }
 
-/* ANIMACIONES-EJECUTADAS */
-
-h1:hover {
+h1 {
 
     animation-name: movimiento_suave;
     animation-duration: 1s;
+    animation-iteration-count: infinite;
 
 }
 
-h2 b:hover {
+h2:hover {
 
-    animation-name: rotar;
+    animation-name: rotar_suave;
     animation-duration: 1s;
+    animation-timing-function: infinite;
+
+}
+
+h5:hover {
+
+    animation-duration: 1s;
+    animation-name: escala;
+
+}
+
+p:hover {
+
+    animation-duration: 1s;
+    animation-name: escala_suave;
+
 
 }
 
@@ -204,6 +227,21 @@ li:hover {
 
     animation-name: escala;
     animation-duration: 1s;
+
+}
+
+img:hover {
+
+    animation-name: escala_suave;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+
+}
+
+iframe:hover {
+
+    animation-name: rotar_completo;
+    animation-duration: 2s;
 
 }
 
@@ -275,13 +313,29 @@ li:hover {
 
     50% {
 
-        transform: rotate(10deg);
+        transform: rotate(2deg);
 
     }
 
     75% {
 
-        transform: rotate(-10deg);
+        transform: rotate(-2deg);
+
+    }
+
+}
+
+@keyframes rotar_completo {
+
+    50% {
+
+        transform: rotate(360deg);
+
+    }
+
+    100% {
+
+        transform: rotate(360deg);
 
     }
 
@@ -307,7 +361,7 @@ li:hover {
     
     50% {
 
-        transform: scale(1.5);
+        transform: scale(1.05);
 
     }
 
