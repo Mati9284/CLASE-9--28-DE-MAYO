@@ -96,7 +96,7 @@ nav {
     display: flex;
     justify-content: space-evenly;
     align-items: flex-end;
-    width: 100%;
+    width: 80%;
 
 }
 
@@ -120,12 +120,36 @@ nav a:hover {
 header img {
 
     margin-left: 50px;
-    border-radius: 25%;
+    border-radius: 50%;
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    width: 25%;
-    height: 100%;
+    width: 75px;
+    height: 65px;
+
+}
+
+.hamburguesa {
+
+    display: none;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    flex-direction: column;
+    gap: 6px;
+    transition: transform 0.3s ease;
+
+}
+
+.bar {
+
+    display: none;
+    width: 30px;
+    height: 4px;
+    background-color: white;
+    border-radius: 4px;
+    transition: all 0.3s ease;
 
 }
 
@@ -200,11 +224,11 @@ h1 {
 
 }
 
-h2:hover {
+h2 {
 
-    animation-name: rotar_suave;
+    animation-name: movimiento_suave;
     animation-duration: 1s;
-    animation-timing-function: infinite;
+    animation-iteration-count: infinite;
 
 }
 
@@ -370,5 +394,419 @@ iframe:hover {
         transform: scale(1);
 
     }
+
+}
+
+@media (max-width: 1000px)  {
+
+ * {
+
+    margin: 5;
+    padding: 0;
+    font-weight: 700;
+}
+
+/* EFECTO-LETRAS */
+
+#strong {
+
+    font-weight: 1000;
+    font-size: 50px;
+    margin-top: 1px;
+
+}
+
+h1 {
+
+    font-family: "DynaPuff", sans-serif;
+
+}
+
+h2 {
+
+    font-family: "DynaPuff", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+h4 {
+
+    font-family: "Iosevka Charon Mono", sans-serif;
+
+}
+
+h5 {
+
+    font-family: "Iosevka Charon Mono", sans-serif;
+
+}
+
+p {
+
+    font-family: "Iosevka Charon Mono", sans-serif;
+
+}
+
+.redondeado {
+
+    border-radius: 50px;
+
+}
+
+body {
+
+    background: linear-gradient(to right, #a3e6f5, #b3d3d8);
+
+}
+
+#inicio {
+
+    width: 100%;
+    height: 100px;
+
+}
+
+.borde {
+
+    border-radius: 5%;
+
+}
+
+
+header {
+
+    margin-top: 5px;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(215, 137, 53);
+    border: 8px solid  rgb(140, 212, 228);
+    background: linear-gradient(to right, #cfa663, #f2b63e);
+    border-radius: 50px;
+    padding: 10px;
+    width: 100%;
+    height: 12.5%;
+    z-index: 1;
+
+}
+
+nav {
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    flex-direction: column;
+    width: 75%;
+
+}
+
+nav a {
+
+    display: none;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 1vw;
+    font-weight: 800;
+
+}
+
+nav a:hover {
+
+    opacity: 0.75;
+    animation-duration: 1s;
+    animation-name: movimiento;
+
+}
+
+header img {
+
+    margin-left: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 75px;
+    height: 65px;
+
+}
+
+.hamburguesa {
+
+    display: flex;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    flex-direction: column;
+    gap: 6px;
+    transition: transform 0.3s ease;
+
+}
+
+.bar {
+
+    display: flex;
+    width: 30px;
+    height: 4px;
+    background-color: white;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+
+}
+
+.bar.active {
+
+    display: flex;
+
+}
+
+main {
+
+    margin: 25px;
+
+}
+
+.footer {
+    background: linear-gradient(to right, #f68569, #be9371);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.texto{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#metodos_pago {
+
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+
+}
+
+#video {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column-reverse;
+
+}
+
+.inicio{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+button {
+
+    width: 50%;
+    border-radius: 10px;
+    border: #b3d3d8 solid 5px;
+    background: linear-gradient(to right, #9e8b6e, #f2b63e);
+
+}
+
+/* ANIMACIONES-EJECUTADAS */
+
+button:hover {
+
+    animation-duration: 1s;
+    animation-name: rotar;
+
+}
+
+h1 {
+
+    animation-name: movimiento_suave;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+
+}
+
+h2 {
+
+    animation-name: movimiento_suave;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+
+}
+
+h5:hover {
+
+    animation-duration: 1s;
+    animation-name: escala;
+
+}
+
+p:hover {
+
+    animation-duration: 1s;
+    animation-name: escala_suave;
+
+
+}
+
+li:hover {
+
+    animation-name: escala;
+    animation-duration: 1s;
+
+}
+
+img:hover {
+
+    animation-name: escala_suave;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+
+}
+
+iframe:hover {
+
+    animation-name: rotar_completo;
+    animation-duration: 2s;
+
+}
+
+/* ANIMACIONES */
+
+
+@keyframes movimiento {
+
+    50% {
+
+        translate: 0px 10px;
+
+    }
+
+
+    100% {
+
+        translate: 0px 0px;
+
+    }
+
+}
+
+@keyframes movimiento_suave {
+
+    50% {
+
+        translate: 0px 2.5px;
+
+    }
+
+    100% {
+
+        translate: 0px 0px;
+
+    }
+
+} 
+
+@keyframes rotar {
+    
+    25% {
+
+        transform: rotate(0deg);
+
+    }
+
+    50% {
+
+        transform: rotate(10deg);
+
+    }
+
+    75% {
+
+        transform: rotate(-10deg);
+
+    }
+
+}
+
+@keyframes rotar_suave {
+    
+    25% {
+
+        transform: rotate(0deg);
+
+    }
+
+    50% {
+
+        transform: rotate(2deg);
+
+    }
+
+    75% {
+
+        transform: rotate(-2deg);
+
+    }
+
+}
+
+@keyframes rotar_completo {
+
+    50% {
+
+        transform: rotate(360deg);
+
+    }
+
+    100% {
+
+        transform: rotate(360deg);
+
+    }
+
+}
+
+@keyframes escala {
+    
+    50% {
+
+        transform: scale(2);
+
+    }
+
+    100% {
+
+        transform: scale(1);
+
+    }
+
+}
+
+@keyframes escala_suave {
+    
+    50% {
+
+        transform: scale(1.05);
+
+    }
+
+    100% {
+
+        transform: scale(1);
+
+    }
+
+}   
 
 }
