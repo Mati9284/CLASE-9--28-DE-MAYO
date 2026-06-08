@@ -120,6 +120,7 @@ header img {
 
 main {
     margin: 25px;
+    margin-bottom: 100px;
 }
 
 #video {
@@ -129,15 +130,16 @@ main {
     flex-direction: row-reverse;
 }
 
-a button {
-    width: 50%;
+.comprar {
+    width: 100%;
+    font-size: 24px;
     border-radius: 10px;
     border: #b3d3d8 solid 5px;
     background: linear-gradient(to right, #9e8b6e, #f2b63e);
 }
 
 .centrar-h2 {
-    margin-top: 20px;
+    margin-top: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -148,6 +150,7 @@ a button {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-bottom: 100px;
 }
 
 /* TODO LO DEL FOOTER */
